@@ -68,3 +68,11 @@ class EvcilHayvan:
             print(f"Uyarı: {self.isim} bitkin düştü! Hemen uyutmalısın.")
         if self.mutluluk == 0:
             print(f"Uyarı: {self.isim} çok mutsuz! Acilen onunla oynamalısın.")
+    
+    # evcil_hayvan.py dosyasındaki EvcilHayvan sınıfının içine ekle
+
+    def isim_degistir(self, yeni_isim):
+        """Evcil hayvanın adını değiştirir."""
+        eski_isim = self.isim
+        self.isim = yeni_isim
+        print(f"{eski_isim} artık {self.isim} olarak bilinecek!")
