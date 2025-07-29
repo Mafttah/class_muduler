@@ -56,3 +56,5 @@ def main():
 # Programın doğrudan çalıştırıldığında 'main()' fonksiyonunu çağırmasını sağlar.
 if __name__ == "__main__":
     main()
+
+# Main.py çalışıyor ama evcil_hayvan.py çalışmıyor. İmportla olmaz bunların birleşmesi lazım. 
