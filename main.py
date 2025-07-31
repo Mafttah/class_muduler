@@ -57,4 +57,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Main.py çalışıyor ama evcil_hayvan.py çalışmıyor. İmportla olmaz bunların birleşmesi lazım. 
+# Main.py çalışıyor ama evcil_hayvan.py çalışmıyor.
+# Import la olmaz bunların birleşmesi lazım. 
+# Birden çok class ı moduler yapı olarak ayrı dosyalara bölüp from modul_adi import ClassAdi. (ClassAdi Pascal case den snakecase a dönüşür.) 
